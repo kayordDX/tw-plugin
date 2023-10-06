@@ -1,8 +1,7 @@
 {
   "name": "@kayord/tw-plugin",
-  "version": "0.0.1",
-  "private": "false",
-  "description": "Kayord UI tailwind plugin",
+  "version": "0.0.3",
+   "description": "Kayord UI tailwind plugin",
   "scripts": {
     "build": "tsup",
 		"package": "tsup",
