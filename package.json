@@ -1,6 +1,6 @@
 {
 	"name": "@kayord/tw-plugin",
-	"version": "0.0.5",
+	"version": "1.0.0",
 	"description": "Kayord UI tailwind plugin",
 	"scripts": {
 		"build": "tsup",
