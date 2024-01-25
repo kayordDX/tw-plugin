@@ -1,12 +1,12 @@
-import { defineConfig } from 'tsup';
+import { defineConfig } from "tsup";
 
 export default defineConfig({
-	entry: ['src/index.ts'],
-	outDir: 'dist',
+	entry: ["src/index.ts"],
+	outDir: "dist",
 	sourcemap: true,
-	format: ['cjs'],
+	format: ["cjs"],
 	dts: true,
 	clean: true,
-	tsconfig: 'tsconfig.json',
-	ignoreWatch: ['src/tailwind/generated']
+	tsconfig: "tsconfig.json",
+	ignoreWatch: ["src/tailwind/generated"],
 });

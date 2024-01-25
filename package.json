@@ -1,28 +1,27 @@
 {
-  "name": "@kayord/tw-plugin",
-  "version": "0.0.5",
-   "description": "Kayord UI tailwind plugin",
-  "scripts": {
-    "build": "tsup",
+	"name": "@kayord/tw-plugin",
+	"version": "0.0.5",
+	"description": "Kayord UI tailwind plugin",
+	"scripts": {
+		"build": "tsup",
 		"package": "tsup",
-    "tsc": "tsc --init",
-    "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.8.2",
-    "prettier": "^3.0.3",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "tailwindcss": "^3.3.3"
-  },
-  "type": "commonjs",
-  "main": "./dist/index.js",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.6",
+		"prettier": "^3.2.4",
+		"tsup": "^8.0.1",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"tailwindcss": "^3.4.1"
+	},
+	"type": "commonjs",
+	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"files": [
 		"./dist/**/*.js",

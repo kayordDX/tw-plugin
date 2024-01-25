@@ -4,7 +4,7 @@ import { ConfigOptions } from "./types";
 
 const coreConfig = {
 	theme: {
-    container: {
+		container: {
 			center: true,
 			padding: "2rem",
 			screens: {
@@ -12,7 +12,7 @@ const coreConfig = {
 			},
 		},
 		extend: {
-      colors: {
+			colors: {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",
@@ -47,7 +47,7 @@ const coreConfig = {
 					foreground: "hsl(var(--card-foreground))",
 				},
 			},
-      borderRadius: {
+			borderRadius: {
 				lg: "var(--radius)",
 				md: "calc(var(--radius) - 2px)",
 				sm: "calc(var(--radius) - 4px)",
@@ -55,8 +55,8 @@ const coreConfig = {
 			fontFamily: {
 				sans: [...fontFamily.sans],
 			},
-		}
-	}
+		},
+	},
 };
 
 const kayordPlugin = plugin.withOptions<ConfigOptions>(
@@ -67,11 +67,11 @@ const kayordPlugin = plugin.withOptions<ConfigOptions>(
 				h2: { fontSize: theme("fontSize.xl") },
 				h3: { fontSize: theme("fontSize.lg") },
 			});
-		}
+		};
 	},
 	() => {
 		return { ...coreConfig };
 	}
 );
 
-export { kayordPlugin }
+export { kayordPlugin };
